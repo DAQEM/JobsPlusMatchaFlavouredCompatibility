@@ -1,0 +1,153 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:smith"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 40,
+      "max": 65
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:stone_axe",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_axe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_axe",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:iron_boots",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_boots",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_boots",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:iron_chestplate",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_chestplate",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_chestplate",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_axe",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_dolabra",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_dolabra",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:iron_helmet",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_helmet",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_helmet",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_hoe",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_hoe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_hoe",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:iron_leggings",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_leggings",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_leggings",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_hoe",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_mattock",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_mattock",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_pickaxe",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_pickaxe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_pickaxe",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:shears",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_shears",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_shears",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_shovel",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_shovel",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_shovel",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_spear",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_spear",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:steel_sword",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.steel_sword",
+              "color": "white"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

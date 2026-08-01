@@ -1,0 +1,83 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:smith"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 120,
+      "max": 180
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:netherite_axe"
+        },
+        {
+          "id": "minecraft:netherite_boots"
+        },
+        {
+          "id": "minecraft:netherite_chestplate"
+        },
+        {
+          "id": "minecraft:netherite_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:adamant_claymore",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.adamant_claymore",
+              "color": "gold"
+            }
+          }
+        },
+        {
+          "id": "minecraft:netherite_axe",
+          "components": {
+            "minecraft:item_model": "minecraft:adamant_dolabra",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.adamant_dolabra",
+              "color": "gold"
+            }
+          }
+        },
+        {
+          "id": "minecraft:netherite_helmet"
+        },
+        {
+          "id": "minecraft:netherite_hoe"
+        },
+        {
+          "id": "minecraft:netherite_leggings"
+        },
+        {
+          "id": "minecraft:netherite_hoe",
+          "components": {
+            "minecraft:item_model": "minecraft:adamant_mattock",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.adamant_mattock",
+              "color": "gold"
+            }
+          }
+        },
+        {
+          "id": "minecraft:netherite_pickaxe"
+        },
+        {
+          "id": "minecraft:netherite_shovel"
+        },
+        {
+          "id": "minecraft:netherite_spear"
+        },
+        {
+          "id": "minecraft:netherite_sword"
+        }
+      ]
+    }
+  ]
+}

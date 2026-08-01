@@ -1,0 +1,29 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:smith"
+  },
+  "type": "arc:on_smelt_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 15,
+      "max": 30
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": true,
+      "items": [
+        {
+          "id": "minecraft:resin_brick"
+        },
+        {
+          "id": "minecraft:prismarine_crystals"
+        }
+      ]
+    }
+  ]
+}

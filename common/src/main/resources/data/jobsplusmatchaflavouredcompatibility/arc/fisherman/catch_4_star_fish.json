@@ -13,206 +13,167 @@
   ],
   "conditions": [
     {
-      "type": "arc:or",
-      "conditions": [
+      "type": "arc:items",
+      "check_components": true,
+      "items": [
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.arapaima"
-              },
-              "minecraft:item_model": "minecraft:arapaima",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.arapaima"
+            },
+            "minecraft:item_model": "minecraft:arapaima",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.bass"
-              },
-              "minecraft:item_model": "minecraft:bass",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.bass"
+            },
+            "minecraft:item_model": "minecraft:bass",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.echo_fish"
-              },
-              "minecraft:item_model": "minecraft:echo_fish",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.echo_fish"
+            },
+            "minecraft:item_model": "minecraft:echo_fish",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.european_eel"
-              },
-              "minecraft:item_model": "minecraft:european_eel",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.european_eel"
+            },
+            "minecraft:item_model": "minecraft:european_eel",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.muskellunge"
-              },
-              "minecraft:item_model": "minecraft:muskellunge",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.muskellunge"
+            },
+            "minecraft:item_model": "minecraft:muskellunge",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.oarfish"
-              },
-              "minecraft:item_model": "minecraft:oarfish",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.oarfish"
+            },
+            "minecraft:item_model": "minecraft:oarfish",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.opah"
-              },
-              "minecraft:item_model": "minecraft:opah",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.opah"
+            },
+            "minecraft:item_model": "minecraft:opah",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.siberian_sturgeon"
-              },
-              "minecraft:item_model": "minecraft:siberian_sturgeon",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.siberian_sturgeon"
+            },
+            "minecraft:item_model": "minecraft:siberian_sturgeon",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.skate"
-              },
-              "minecraft:item_model": "minecraft:skate",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.skate"
+            },
+            "minecraft:item_model": "minecraft:skate",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.swordfish"
-              },
-              "minecraft:item_model": "minecraft:swordfish",
-              "minecraft:lore": [
-                {
-                  "text": "⭐⭐⭐⭐",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.swordfish"
+            },
+            "minecraft:item_model": "minecraft:swordfish",
+            "minecraft:lore": [
+              {
+                "text": "⭐⭐⭐⭐",
+                "color": "light_purple",
+                "italic": false
+              }
+            ]
           }
         }
       ]

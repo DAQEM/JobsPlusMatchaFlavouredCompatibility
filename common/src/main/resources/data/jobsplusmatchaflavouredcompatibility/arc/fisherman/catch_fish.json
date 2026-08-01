@@ -13,310 +13,247 @@
   ],
   "conditions": [
     {
-      "type": "arc:or",
-      "conditions": [
+      "type": "arc:items",
+      "check_components": true,
+      "items": [
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.alaska_blackfish"
-              },
-              "minecraft:item_model": "minecraft:alaska_blackfish",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.alaska_blackfish"
+            },
+            "minecraft:item_model": "minecraft:alaska_blackfish",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.anchovy"
-              },
-              "minecraft:item_model": "minecraft:anchovy",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.anchovy"
+            },
+            "minecraft:item_model": "minecraft:anchovy",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.bluegill"
-              },
-              "minecraft:item_model": "minecraft:bluegill",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.bluegill"
+            },
+            "minecraft:item_model": "minecraft:bluegill",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.bujurqui"
-              },
-              "minecraft:item_model": "minecraft:bujurqui",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.bujurqui"
+            },
+            "minecraft:item_model": "minecraft:bujurqui",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.crappie"
-              },
-              "minecraft:item_model": "minecraft:crappie",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.crappie"
+            },
+            "minecraft:item_model": "minecraft:crappie",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:pufferfish",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.freshwater_pufferfish"
-              },
-              "minecraft:item_model": "minecraft:freshwater_pufferfish",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:pufferfish",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.freshwater_pufferfish"
+            },
+            "minecraft:item_model": "minecraft:freshwater_pufferfish",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.guppy"
-              },
-              "minecraft:item_model": "minecraft:guppy",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.guppy"
+            },
+            "minecraft:item_model": "minecraft:guppy",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.humpback_whitefish"
-              },
-              "minecraft:item_model": "minecraft:humpback_whitefish",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.humpback_whitefish"
+            },
+            "minecraft:item_model": "minecraft:humpback_whitefish",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.mediterranean_killifish"
-              },
-              "minecraft:item_model": "minecraft:mediterranean_killifish",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.mediterranean_killifish"
+            },
+            "minecraft:item_model": "minecraft:mediterranean_killifish",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.rainbow_wrasse"
-              },
-              "minecraft:item_model": "minecraft:rainbow_wrasse",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.rainbow_wrasse"
+            },
+            "minecraft:item_model": "minecraft:rainbow_wrasse",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.shad"
-              },
-              "minecraft:item_model": "minecraft:shad",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.shad"
+            },
+            "minecraft:item_model": "minecraft:shad",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:item_name": {
-                "translate": "item.kleispack.fish.striped_perch"
-              },
-              "minecraft:item_model": "minecraft:striped_perch",
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.fish.striped_perch"
+            },
+            "minecraft:item_model": "minecraft:striped_perch",
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:cod",
-            "components": {
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:cod",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:salmon",
-            "components": {
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:salmon",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:pufferfish",
-            "components": {
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:pufferfish",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
-          "type": "arc:item",
-          "check_components": true,
-          "item": {
-            "id": "minecraft:tropical_fish",
-            "components": {
-              "minecraft:lore": [
-                {
-                  "text": "⭐",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
+          "id": "minecraft:tropical_fish",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "⭐",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         }
       ]

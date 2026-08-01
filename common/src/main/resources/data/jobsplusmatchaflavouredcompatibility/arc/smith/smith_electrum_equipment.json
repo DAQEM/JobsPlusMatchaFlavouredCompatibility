@@ -1,0 +1,143 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:smith"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 85,
+      "max": 120
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:diamond_axe",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_axe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_axe",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:diamond_boots",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_boots",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_boots",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:diamond_chestplate",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_chestplate",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_chestplate",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_axe",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_dolabra",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_dolabra",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:diamond_helmet",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_helmet",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_helmet",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_hoe",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_hoe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_hoe",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:diamond_leggings",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_leggings",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_leggings",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_hoe",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_mattock",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_mattock",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_pickaxe",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_pickaxe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_pickaxe",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_shovel",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_shovel",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_shovel",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_spear",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_spear",
+              "color": "yellow"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:electrum_sword",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.electrum_sword",
+              "color": "yellow"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:smith"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 15,
+      "max": 30
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:stone_axe",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_axe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_axe",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:copper_boots",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_boots",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_boots",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:copper_chestplate",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_chestplate",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_chestplate",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_axe",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_dolabra",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_dolabra",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:elytra",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_elytra",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_elytra",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:copper_helmet",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_helmet",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_helmet",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_hoe",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_hoe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_hoe",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:copper_leggings",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_leggings",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_leggings",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_hoe",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_mattock",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_mattock",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_pickaxe",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_pickaxe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_pickaxe",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_shovel",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_shovel",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_shovel",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_spear",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_spear",
+              "color": "#ac7b5c"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:bronze_sword",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.bronze_sword",
+              "color": "#ac7b5c"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

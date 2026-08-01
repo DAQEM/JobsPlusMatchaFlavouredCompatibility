@@ -1,0 +1,41 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:smith"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 15,
+      "max": 30
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": true,
+      "items": [
+        {
+          "id": "minecraft:piglin_brute_spawn_egg",
+          "components": {
+            "!minecraft:entity_data": {}
+          }
+        },
+        {
+          "id": "minecraft:phantom_membrane"
+        },
+        {
+          "id": "minecraft:heart_of_the_sea"
+        },
+        {
+          "id": "minecraft:shulker_shell"
+        },
+        {
+          "id": "minecraft:netherite_ingot"
+        }
+      ]
+    }
+  ]
+}

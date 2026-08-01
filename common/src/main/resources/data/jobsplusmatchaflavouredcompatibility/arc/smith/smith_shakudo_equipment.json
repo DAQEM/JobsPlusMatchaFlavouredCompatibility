@@ -1,0 +1,143 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:smith"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 60,
+      "max": 90
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:stone_axe",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_axe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_axe",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:copper_boots",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_boots",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_boots",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:copper_chestplate",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_chestplate",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_chestplate",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_axe",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_dolabra",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_dolabra",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:copper_helmet",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_helmet",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_helmet",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_hoe",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_hoe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_hoe",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:copper_leggings",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_leggings",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_leggings",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_hoe",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_mattock",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_mattock",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_pickaxe",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_pickaxe",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_pickaxe",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_shovel",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_shovel",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_shovel",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:shakudo_spear",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_spear",
+              "color": "#c96691"
+            }
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:palatinate_sword",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.shakudo_sword",
+              "color": "#c96691"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

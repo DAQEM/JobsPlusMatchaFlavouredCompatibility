@@ -1,0 +1,90 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:smith"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 25,
+      "max": 45
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:silver_sword",
+            "minecraft:item_name": "Silver Sword"
+          }
+        },
+        {
+          "id": "minecraft:shield",
+          "components": {
+            "minecraft:item_name": "Warding Shield"
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:warding_sword",
+            "minecraft:item_name": "Warding Sword"
+          }
+        },
+        {
+          "id": "minecraft:stone_sword",
+          "components": {
+            "minecraft:item_model": "minecraft:butcher_knife",
+            "minecraft:item_name": "Butcher's Knife"
+          }
+        },
+        {
+          "id": "minecraft:leather_boots",
+          "components": {
+            "minecraft:item_model": "minecraft:sturdy_leather_boots",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.sturdy_leather_boots",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:leather_chestplate",
+          "components": {
+            "minecraft:item_model": "minecraft:sturdy_leather_chestplate",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.sturdy_leather_chestplate",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:leather_leggings",
+          "components": {
+            "minecraft:item_model": "minecraft:sturdy_leather_leggings",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.sturdy_leather_leggings",
+              "color": "white"
+            }
+          }
+        },
+        {
+          "id": "minecraft:leather_helmet",
+          "components": {
+            "minecraft:item_model": "minecraft:sturdy_leather_helmet",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.sturdy_leather_helmet",
+              "color": "white"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

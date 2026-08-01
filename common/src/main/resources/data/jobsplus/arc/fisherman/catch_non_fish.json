@@ -1,0 +1,9 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:fisherman"
+  },
+  "type": "arc:on_fished_up_item",
+  "rewards": [],
+  "conditions": []
+}
