@@ -1,0 +1,88 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:fisherman"
+  },
+  "type": "arc:on_fished_up_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "min": 2,
+      "max": 5
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:or",
+      "conditions": [
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:bone",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.fish_bones"
+              },
+              "minecraft:item_model": "minecraft:fish_bones"
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:chicken_spawn_egg",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.axolotl"
+              },
+              "minecraft:item_model": "minecraft:axolotl",
+              "minecraft:max_stack_size": 1
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:frog_spawn_egg",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.frog"
+              },
+              "minecraft:max_stack_size": 1
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:tadpole_spawn_egg",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.tadpole"
+              },
+              "minecraft:max_stack_size": 8
+            }
+          }
+        },
+        {
+          "type": "arc:items",
+          "items": [
+            "minecraft:lily_pad",
+            "minecraft:leather",
+            "minecraft:potion",
+            "minecraft:string",
+            "minecraft:bowl",
+            "minecraft:stick",
+            "minecraft:ink_sac",
+            "minecraft:tripwire_hook",
+            "minecraft:bamboo"
+          ]
+        }
+      ]
+    }
+  ]
+}

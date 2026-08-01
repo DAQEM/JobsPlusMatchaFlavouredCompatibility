@@ -1,0 +1,221 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:fisherman"
+  },
+  "type": "arc:on_fished_up_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "min": 10,
+      "max": 15
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:or",
+      "conditions": [
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:salmon",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.black_seabass"
+              },
+              "minecraft:item_model": "minecraft:black_seabass",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:salmon",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.carp"
+              },
+              "minecraft:item_model": "minecraft:carp",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:cod",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.flying_fish"
+              },
+              "minecraft:item_model": "minecraft:flying_fish",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:cod",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.gurnard"
+              },
+              "minecraft:item_model": "minecraft:gurnard",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:cod",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.herring"
+              },
+              "minecraft:item_model": "minecraft:herring",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:cod",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.lamprey"
+              },
+              "minecraft:item_model": "minecraft:lamprey",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:salmon",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.mahi_mahi"
+              },
+              "minecraft:item_model": "minecraft:mahi_mahi",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:cod",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.piranha"
+              },
+              "minecraft:item_model": "minecraft:piranha",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:cod",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.spoonhead_sculpin"
+              },
+              "minecraft:item_model": "minecraft:spoonhead_sculpin",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "arc:item",
+          "check_components": true,
+          "item": {
+            "id": "minecraft:salmon",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.kleispack.fish.walleye"
+              },
+              "minecraft:item_model": "minecraft:walleye",
+              "minecraft:lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
