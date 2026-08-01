@@ -1,0 +1,69 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+issueTrackerURL = "${mod_repository}/issues"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${version}"
+license = "${mod_license}"
+displayName = "${mod_name}"
+authors = "${mod_author}"
+credits = "${mod_author}"
+description = "${mod_description}"
+
+[[dependencies."${mod_id}"]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[${neoforge_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[${minecraft_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "knot"
+mandatory = true
+versionRange = "[${knot_version},)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "yamlconfig"
+mandatory = true
+versionRange = "[${yamlconfig_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "arc"
+mandatory = true
+versionRange = "[${arc_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "itemrestrictions"
+mandatory = true
+versionRange = "[${itemrestrictions_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "uilib"
+mandatory = true
+versionRange = "[${uilib_version},)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies."${mod_id}"]]
+modId = "jobsplus"
+mandatory = true
+versionRange = "[${jobsplus_version},)"
+ordering = "NONE"
+side = "BOTH"

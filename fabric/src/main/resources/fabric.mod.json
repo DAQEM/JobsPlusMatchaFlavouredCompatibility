@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "${mod_author}"
+  ],
+  "contact": {
+    "homepage": "${mod_website}",
+    "sources": "${mod_repository}"
+  },
+  "license": "${mod_license}",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.daqem.jobsplusmatchaflavouredcompatibility.fabric.JobsPlusMatchaFlavouredCompatibilityFabric"
+    ]
+  },
+  "depends": {
+    "fabric-api": ">=${fabric_version}",
+    "minecraft": ">=${minecraft_version}",
+    "knot": ">=${knot_version}",
+    "yamlconfig": ">=${yamlconfig_version}",
+    "arc": ">=${arc_version}",
+    "itemrestrictions": ">=${itemrestrictions_version}",
+    "uilib": ">=${uilib_version}",
+    "jobsplus": ">=${jobsplus_version}"
+  }
+}
