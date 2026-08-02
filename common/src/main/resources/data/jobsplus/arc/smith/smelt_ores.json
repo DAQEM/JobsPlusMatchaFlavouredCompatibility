@@ -25,9 +25,13 @@
       ]
     },
     {
-      "type": "arc:item",
+      "type": "arc:items",
       "inverted": true,
-      "item": "minecraft:netherite_ingot"
+      "items": [
+        "minecraft:netherite_ingot",
+        "minecraft:emerald",
+        "minecraft:prismarine_crystals"
+      ]
     }
   ]
 }
