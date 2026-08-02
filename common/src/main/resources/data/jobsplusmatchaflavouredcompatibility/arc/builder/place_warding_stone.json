@@ -1,0 +1,44 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:builder"
+  },
+  "type": "arc:on_interact_block",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 50,
+      "max": 100
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:armor_stand",
+              "NoGravity": true,
+              "Invulnerable": true,
+              "Tags": [
+                "WardingStone"
+              ],
+              "Invisible": true,
+              "Small": true,
+              "DisabledSlots": 4144959
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.warding_stone",
+              "color": "aqua"
+            },
+            "minecraft:item_model": "minecraft:warding_stone"
+          }
+        }
+      ]
+    }
+  ]
+}
