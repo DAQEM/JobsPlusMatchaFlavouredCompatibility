@@ -1,0 +1,16 @@
+{
+  "holder": {
+    "type": "jobsplus:powerup",
+    "id": "jobsplusmatchaflavouredcompatibility:chef/gourmet_saturation_iii"
+  },
+  "type": "arc:on_eat",
+  "rewards": [
+    {
+      "type": "arc:effect",
+      "effect": "minecraft:regeneration",
+      "duration": 200,
+      "amplifier": 0,
+      "chance": 50
+    }
+  ]
+}

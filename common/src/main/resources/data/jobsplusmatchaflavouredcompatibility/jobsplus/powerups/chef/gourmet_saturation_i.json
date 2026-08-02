@@ -1,0 +1,8 @@
+{
+  "job": "jobsplusmatchaflavouredcompatibility:chef",
+  "icon": {
+    "id": "minecraft:golden_carrot"
+  },
+  "price": 10,
+  "required_level": 20
+}

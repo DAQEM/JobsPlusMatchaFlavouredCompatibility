@@ -1,0 +1,475 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplusmatchaflavouredcompatibility:chef"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 10,
+      "max": 20
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": true,
+      "items": [
+        {
+          "id": "minecraft:baked_potato",
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 0.5,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 0,
+                      "duration": 1,
+                      "show_particles": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:lore": [
+              {
+                "text": "❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "🍖 2",
+                "color": "dark_green",
+                "italic": false
+              }
+            ],
+            "minecraft:item_name": "Stuffed Mushrooms",
+            "minecraft:food": {
+              "nutrition": 2,
+              "saturation": 0.5
+            },
+            "minecraft:custom_model_data": {
+              "strings": [
+                "stuffed_mushrooms"
+              ]
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_model": "minecraft:glow_jam",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.glow_berry_jam"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "animation": "drink",
+              "sound": "minecraft:item.honey_bottle.drink",
+              "has_consume_particles": true,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 48,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:lore": [
+              {
+                "text": "❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "☽ Aura (0:30)",
+                "color": "#0fffa3",
+                "italic": false
+              }
+            ],
+            "minecraft:use_remainder": {
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_model": "minecraft:pumpkin_jam",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.pumpkin_jam"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "animation": "drink",
+              "sound": "minecraft:item.honey_bottle.drink",
+              "has_consume_particles": false,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "duration": 3600,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 48,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:lore": [
+              {
+                "text": "❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "🛡 Resistance (3:00)",
+                "color": "blue",
+                "italic": false
+              }
+            ],
+            "minecraft:use_remainder": {
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_model": "minecraft:sweet_berry_jam",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.sweet_berry_jam"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "animation": "drink",
+              "sound": "minecraft:item.honey_bottle.drink",
+              "has_consume_particles": false,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 48,
+                      "show_particles": false,
+                      "show_icon": false
+                    },
+                    {
+                      "id": "minecraft:health_boost",
+                      "amplifier": 0,
+                      "duration": 3600,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:lore": [
+              {
+                "text": "❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "❤❤ (3:00)",
+                "color": "gray",
+                "italic": false
+              }
+            ],
+            "minecraft:use_remainder": {
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_model": "minecraft:rind_jam",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.rind_jam"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "has_consume_particles": false,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:fire_resistance",
+                      "duration": 6000,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 48,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:lore": [
+              {
+                "text": "❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "🔥🛡 Fire Resistance (5:00)",
+                "color": "gold",
+                "italic": false
+              }
+            ],
+            "minecraft:use_remainder": {
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_model": "minecraft:pickled_carrots",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.pickled_carrots"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "has_consume_particles": false,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:night_vision",
+                      "duration": 6000,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 48,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:lore": [
+              {
+                "text": "❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "👁 Night Vision (5:00)",
+                "color": "green",
+                "italic": false
+              }
+            ],
+            "minecraft:use_remainder": {
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_model": "minecraft:pickled_potatoes",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.pickled_potatoes"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "has_consume_particles": false,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "duration": 6000,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 120,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:lore": [
+              {
+                "text": "❤❤❤❤❤",
+                "color": "red",
+                "italic": false
+              }
+            ],
+            "minecraft:use_remainder": {
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_model": "minecraft:pickled_mushrooms",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.pickled_mushrooms"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "has_consume_particles": false,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 72,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:lore": [
+              {
+                "text": "❤❤❤",
+                "color": "red",
+                "italic": false
+              }
+            ],
+            "minecraft:use_remainder": {
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:item_model": "minecraft:pickled_tomatoes",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.pickled_tomatoes"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:consumable": {
+              "has_consume_particles": false,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "duration": 6000,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 72,
+                      "show_particles": false,
+                      "show_icon": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:lore": [
+              {
+                "text": "❤❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "🗡 Strength (5:00)",
+                "color": "#e65f33",
+                "italic": false
+              }
+            ],
+            "minecraft:use_remainder": {
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

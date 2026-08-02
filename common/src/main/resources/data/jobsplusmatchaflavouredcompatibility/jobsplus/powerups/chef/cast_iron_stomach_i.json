@@ -1,0 +1,8 @@
+{
+  "job": "jobsplusmatchaflavouredcompatibility:chef",
+  "icon": {
+    "id": "minecraft:rotten_flesh"
+  },
+  "price": 5,
+  "required_level": 10
+}

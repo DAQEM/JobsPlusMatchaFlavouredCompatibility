@@ -1,0 +1,15 @@
+{
+  "job": "jobsplusmatchaflavouredcompatibility:chef",
+  "parent": "jobsplusmatchaflavouredcompatibility:chef/gourmet_saturation_i",
+  "icon": {
+    "id": "minecraft:golden_carrot",
+    "components": {
+      "minecraft:max_stack_size": 2,
+      "!minecraft:max_damage": {},
+      "!minecraft:damage": {}
+    },
+    "count": 2
+  },
+  "price": 15,
+  "required_level": 35
+}

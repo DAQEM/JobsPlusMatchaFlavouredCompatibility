@@ -1,0 +1,444 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplusmatchaflavouredcompatibility:chef"
+  },
+  "type": "arc:on_smelt_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 15,
+      "max": 25
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": true,
+      "items": [
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "❤❤❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "❤❤ (2:00)",
+                "color": "aqua",
+                "italic": false
+              },
+              {
+                "text": "❤ Regen (1:00)",
+                "color": "#e85e8f",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "consume_seconds": 1.6,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 96,
+                      "show_particles": false,
+                      "show_icon": false
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 0,
+                      "duration": 2400,
+                      "show_particles": false,
+                      "show_icon": true
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 0,
+                      "duration": 1200,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ],
+                  "probability": 1
+                }
+              ]
+            },
+            "minecraft:item_model": "minecraft:baked_golden_apple",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.baked_golden_apple",
+              "color": "yellow"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "👁 Night Vision (1:00)",
+                "color": "green",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "consume_seconds": 0.8,
+              "has_consume_particles": true,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 3,
+                      "duration": 15,
+                      "show_particles": false,
+                      "show_icon": false
+                    },
+                    {
+                      "id": "minecraft:night_vision",
+                      "amplifier": 0,
+                      "duration": 1200,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ],
+                  "probability": 1
+                }
+              ]
+            },
+            "minecraft:item_model": "minecraft:golden_steamed_carrots",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.golden_steamed_carrots",
+              "color": "yellow"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "🏃 +20% (0:30)",
+                "color": "#37cafb",
+                "italic": false
+              },
+              {
+                "text": "✨ Cleanse Maleffect",
+                "color": "gray",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "consume_seconds": 0.8,
+              "animation": "drink",
+              "sound": "minecraft:entity.generic.drink",
+              "has_consume_particles": false,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 24,
+                      "show_particles": false,
+                      "show_icon": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "duration": 600,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ],
+                  "probability": 1
+                },
+                {
+                  "type": "minecraft:remove_effects",
+                  "effects": [
+                    "minecraft:poison",
+                    "minecraft:mining_fatigue",
+                    "minecraft:wither",
+                    "minecraft:weakness",
+                    "minecraft:bad_omen",
+                    "minecraft:blindness",
+                    "minecraft:darkness",
+                    "minecraft:infested",
+                    "minecraft:weaving",
+                    "minecraft:nausea",
+                    "minecraft:oozing",
+                    "minecraft:slowness"
+                  ]
+                }
+              ]
+            },
+            "minecraft:item_model": "minecraft:honey_ginger_tea",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.honey_ginger_tea"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:use_remainder": {
+              "id": "minecraft:glass_bottle"
+            }
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "❤❤❤❤❤❤❤❤❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "🏃 +40% (30:00)",
+                "color": "#37cafb",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "consume_seconds": 3,
+              "animation": "drink",
+              "has_consume_particles": true,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 240,
+                      "show_particles": false,
+                      "show_icon": false
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 1,
+                      "duration": 36000,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ],
+                  "probability": 1
+                }
+              ]
+            },
+            "minecraft:item_model": "minecraft:green_curry",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.green_curry"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:use_remainder": {
+              "id": "minecraft:bowl"
+            },
+            "minecraft:max_stack_size": 64
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "❤❤❤❤❤❤❤❤❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "🗡 Strength (30:00)",
+                "color": "#e65f33",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "consume_seconds": 3,
+              "animation": "drink",
+              "has_consume_particles": true,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 240,
+                      "show_particles": false,
+                      "show_icon": false
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "duration": 36000,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ],
+                  "probability": 1
+                }
+              ]
+            },
+            "minecraft:item_model": "minecraft:japanese_curry",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.japanese_curry"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:use_remainder": {
+              "id": "minecraft:bowl"
+            },
+            "minecraft:max_stack_size": 64
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "❤❤❤❤❤❤❤❤❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "❤ Regen (10:00)",
+                "color": "#e85e8f",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "consume_seconds": 3,
+              "animation": "drink",
+              "has_consume_particles": true,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 240,
+                      "show_particles": false,
+                      "show_icon": false
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "duration": 12000,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ],
+                  "probability": 1
+                }
+              ]
+            },
+            "minecraft:item_model": "minecraft:paneer_makhani",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.paneer_makhani"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:use_remainder": {
+              "id": "minecraft:bowl"
+            },
+            "minecraft:max_stack_size": 64
+          }
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "components": {
+            "minecraft:lore": [
+              {
+                "text": "❤❤❤❤❤❤❤❤❤❤",
+                "color": "red",
+                "italic": false
+              },
+              {
+                "text": "⛏ Haste II (30:00)",
+                "color": "yellow",
+                "italic": false
+              }
+            ],
+            "minecraft:consumable": {
+              "consume_seconds": 3,
+              "animation": "drink",
+              "has_consume_particles": true,
+              "on_consume_effects": [
+                {
+                  "type": "minecraft:apply_effects",
+                  "effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 240,
+                      "show_particles": false,
+                      "show_icon": false
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 1,
+                      "duration": 36000,
+                      "show_particles": false,
+                      "show_icon": true
+                    }
+                  ],
+                  "probability": 1
+                }
+              ]
+            },
+            "minecraft:item_model": "minecraft:ramen",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.ramen"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:use_remainder": {
+              "id": "minecraft:bowl"
+            },
+            "minecraft:max_stack_size": 64
+          }
+        }
+      ]
+    }
+  ]
+}
