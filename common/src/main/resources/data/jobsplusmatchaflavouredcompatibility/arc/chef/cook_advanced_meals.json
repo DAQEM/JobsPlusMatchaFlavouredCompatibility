@@ -1,7 +1,7 @@
 {
   "holder": {
     "type": "jobsplus:job",
-    "id": "jobsplusmatchaflavouredcompatibility:chef"
+    "id": "jobsplus:chef"
   },
   "type": "arc:on_smelt_item",
   "rewards": [

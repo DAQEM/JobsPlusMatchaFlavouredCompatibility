@@ -1,7 +1,7 @@
 {
   "holder": {
     "type": "jobsplus:powerup",
-    "id": "jobsplusmatchaflavouredcompatibility:chef/cast_iron_stomach_ii"
+    "id": "jobsplus:chef/cast_iron_stomach_ii"
   },
   "type": "arc:on_add_effect",
   "rewards": [
@@ -30,7 +30,7 @@
     },
     {
       "type": "jobsplus:powerup_not_active",
-      "powerup": "jobsplusmatchaflavouredcompatibility:chef/cast_iron_stomach_iii"
+      "powerup": "jobsplus:chef/cast_iron_stomach_iii"
     }
   ]
 }

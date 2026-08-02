@@ -1,5 +1,5 @@
 {
-  "job": "jobsplusmatchaflavouredcompatibility:chef",
+  "job": "jobsplus:chef",
   "icon": {
     "id": "minecraft:rotten_flesh"
   },

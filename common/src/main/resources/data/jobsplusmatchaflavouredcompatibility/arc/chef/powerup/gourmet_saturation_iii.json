@@ -1,7 +1,7 @@
 {
   "holder": {
     "type": "jobsplus:powerup",
-    "id": "jobsplusmatchaflavouredcompatibility:chef/gourmet_saturation_iii"
+    "id": "jobsplus:chef/gourmet_saturation_iii"
   },
   "type": "arc:on_eat",
   "rewards": [

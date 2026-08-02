@@ -1,24 +1,24 @@
 {
   "holder": {
     "type": "jobsplus:powerup",
-    "id": "jobsplusmatchaflavouredcompatibility:chef/job_exp_i"
+    "id": "jobsplus:chef/job_exp_i"
   },
   "type": "jobsplus:on_job_exp",
   "rewards": [
     {
       "type": "jobsplus:job_exp_multiplier",
-      "job": "jobsplusmatchaflavouredcompatibility:chef",
+      "job": "jobsplus:chef",
       "multiplier": 1.5
     }
   ],
   "conditions": [
     {
       "type": "jobsplus:powerup_not_active",
-      "powerup": "jobsplusmatchaflavouredcompatibility:chef/job_exp_ii"
+      "powerup": "jobsplus:chef/job_exp_ii"
     },
     {
       "type": "jobsplus:powerup_not_active",
-      "powerup": "jobsplusmatchaflavouredcompatibility:chef/job_exp_iii"
+      "powerup": "jobsplus:chef/job_exp_iii"
     }
   ]
 }

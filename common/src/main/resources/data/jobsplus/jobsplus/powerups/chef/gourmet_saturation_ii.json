@@ -1,6 +1,6 @@
 {
-  "job": "jobsplusmatchaflavouredcompatibility:chef",
-  "parent": "jobsplusmatchaflavouredcompatibility:chef/gourmet_saturation_i",
+  "job": "jobsplus:chef",
+  "parent": "jobsplus:chef/gourmet_saturation_i",
   "icon": {
     "id": "minecraft:golden_carrot",
     "components": {

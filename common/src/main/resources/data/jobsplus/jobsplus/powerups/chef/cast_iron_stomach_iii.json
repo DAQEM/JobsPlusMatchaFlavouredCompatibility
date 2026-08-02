@@ -1,6 +1,6 @@
 {
-  "job": "jobsplusmatchaflavouredcompatibility:chef",
-  "parent": "jobsplusmatchaflavouredcompatibility:chef/cast_iron_stomach_ii",
+  "job": "jobsplus:chef",
+  "parent": "jobsplus:chef/cast_iron_stomach_ii",
   "icon": {
     "id": "minecraft:rotten_flesh",
     "components": {

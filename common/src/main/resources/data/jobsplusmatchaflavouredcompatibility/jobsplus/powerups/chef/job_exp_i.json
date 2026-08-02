@@ -1,9 +1,0 @@
-{
-  "job": "jobsplusmatchaflavouredcompatibility:chef",
-  "parent": "jobsplusmatchaflavouredcompatibility:chef/cast_iron_stomach_i",
-  "icon": {
-    "id": "minecraft:experience_bottle"
-  },
-  "price": 5,
-  "required_level": 15
-}

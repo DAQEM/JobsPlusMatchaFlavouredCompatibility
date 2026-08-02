@@ -1,13 +1,13 @@
 {
   "holder": {
     "type": "jobsplus:powerup",
-    "id": "jobsplusmatchaflavouredcompatibility:chef/job_exp_iii"
+    "id": "jobsplus:chef/job_exp_iii"
   },
   "type": "jobsplus:on_job_exp",
   "rewards": [
     {
       "type": "jobsplus:job_exp_multiplier",
-      "job": "jobsplusmatchaflavouredcompatibility:chef",
+      "job": "jobsplus:chef",
       "multiplier": 3.0
     }
   ]
