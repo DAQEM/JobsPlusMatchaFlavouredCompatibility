@@ -24,7 +24,7 @@
         },
         {
           "type": "arc:effect",
-          "effect": "minecraft:hunger"
+          "effect": "minecraft:weakness"
         }
       ]
     },

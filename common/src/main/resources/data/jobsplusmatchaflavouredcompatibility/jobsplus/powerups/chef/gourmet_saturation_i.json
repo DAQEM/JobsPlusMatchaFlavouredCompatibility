@@ -1,5 +1,6 @@
 {
   "job": "jobsplusmatchaflavouredcompatibility:chef",
+  "parent": "jobsplusmatchaflavouredcompatibility:chef/job_exp_i",
   "icon": {
     "id": "minecraft:golden_carrot"
   },
