@@ -1,0 +1,31 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:enchanter"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 50,
+      "max": 100
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:glistering_melon_slice",
+          "components": {
+            "minecraft:enchantments": {
+              "main:warding1": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

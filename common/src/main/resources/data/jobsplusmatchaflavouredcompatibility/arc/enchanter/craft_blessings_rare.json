@@ -1,0 +1,66 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:enchanter"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 200,
+      "max": 300
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:density": 2,
+              "minecraft:knockback": 2,
+              "minecraft:punch": 2
+            },
+            "minecraft:rarity": "rare",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.talos",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_talos"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "main:warding1": 1,
+              "minecraft:smite": 2
+            },
+            "minecraft:rarity": "rare",
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.man",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_warding"
+          }
+        }
+      ]
+    }
+  ]
+}

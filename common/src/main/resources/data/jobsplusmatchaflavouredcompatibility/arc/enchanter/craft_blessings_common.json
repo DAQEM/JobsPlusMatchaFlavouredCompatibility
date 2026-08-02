@@ -1,0 +1,399 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:enchanter"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 100,
+      "max": 150
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:bane_of_arthropods": 5
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.arachnae",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_arachnae"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:smite": 4,
+              "minecraft:channeling": 1
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.god_king",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_god_king"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:depth_strider": 2,
+              "minecraft:riptide": 1,
+              "minecraft:aqua_affinity": 1,
+              "minecraft:respiration": 2
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.yamm",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_yamm"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:efficiency": 3,
+              "minecraft:unbreaking": 3
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.daedalus",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_daedalus"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:feather_falling": 2
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.icarus",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_icarus"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:flame": 1,
+              "minecraft:fire_aspect": 1,
+              "minecraft:fire_protection": 3
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.yama",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_yama"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:frost_walker": 2,
+              "main:freezing_protection": 2
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.demeter",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_demeter"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:stored_enchantments": {
+              "minecraft:infinity": 1
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.paris",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_paris"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:lunge": 2,
+              "minecraft:breach": 2
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.ares",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_ares"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:luck_of_the_sea": 3,
+              "minecraft:lure": 3,
+              "minecraft:loyalty": 1
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.glaucus",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_glaucus"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:impaling": 3,
+              "minecraft:piercing": 2
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.apollo",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_apollo"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:power": 2,
+              "minecraft:multishot": 1
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.artemis",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_artemis"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "main:reach": 1
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.will",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_will"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:silk_touch": 1
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.eros",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_eros"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:swift_sneak": 2,
+              "minecraft:soul_speed": 2
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.cronus",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_cronus"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "main:traversal": 3
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.clement",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_clement"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:unbreaking": 2
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.prometheus",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_prometheus"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "main:anemos": 1,
+              "minecraft:wind_burst": 1
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.aeolus",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_aeolus"
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "main:zephyr": 1
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.hyacinthus",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_hyacinthus"
+          }
+        }
+      ]
+    }
+  ]
+}

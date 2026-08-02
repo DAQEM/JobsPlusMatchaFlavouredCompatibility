@@ -1,0 +1,9 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:enchanter"
+  },
+  "type": "arc:on_enchant_item",
+  "rewards": [],
+  "conditions": []
+}

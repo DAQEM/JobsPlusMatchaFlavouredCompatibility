@@ -1,0 +1,43 @@
+{
+  "holder": {
+    "type": "jobsplus:job",
+    "id": "jobsplus:enchanter"
+  },
+  "type": "arc:on_craft_item",
+  "rewards": [
+    {
+      "type": "jobsplus:job_exp",
+      "chance": 100,
+      "min": 400,
+      "max": 600
+    }
+  ],
+  "conditions": [
+    {
+      "type": "arc:items",
+      "check_components": "contains",
+      "items": [
+        {
+          "id": "minecraft:enchanted_book",
+          "components": {
+            "minecraft:stored_enchantments": {
+              "minecraft:mending": 1
+            },
+            "minecraft:item_name": {
+              "translate": "item.kleispack.blessing"
+            },
+            "minecraft:rarity": "epic",
+            "minecraft:lore": [
+              {
+                "translate": "item.kleispack.blessing.lu_ban",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ],
+            "minecraft:item_model": "minecraft:blessing_lu_ban"
+          }
+        }
+      ]
+    }
+  ]
+}
